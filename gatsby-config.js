@@ -1,14 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: `Kyle Mathews`,
+    title: `Adam Snodgrass`,
+    author: `Adam Snodgrass`,
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://overra.com`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `overra`,
     },
   },
   plugins: [
+    `gatsby-mdx`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

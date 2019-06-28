@@ -1,15 +1,20 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "adam-snodgrass",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "Adam's personal blog",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Adam Snodgrass <overra@gmail.com>",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "dependencies": {
+    "@babel/core": "^7.4.5",
+    "@mdx-js/mdx": "^1.0.21",
+    "@mdx-js/react": "^1.0.21",
+    "@mdx-js/tag": "^0.20.3",
     "gatsby": "^2.10.4",
     "gatsby-image": "^2.2.3",
+    "gatsby-mdx": "^0.6.3",
     "gatsby-plugin-feed": "^2.3.1",
     "gatsby-plugin-google-analytics": "^2.1.0",
     "gatsby-plugin-manifest": "^2.2.0",
@@ -30,30 +35,29 @@
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
     "react-typography": "^0.16.19",
+    "sharp": "^0.22.1",
     "typeface-merriweather": "0.0.72",
     "typeface-montserrat": "0.0.54",
+    "typeface-roboto": "^0.0.54",
     "typography": "^0.16.19",
     "typography-theme-wordpress-2016": "^0.16.19"
   },
   "devDependencies": {
     "prettier": "^1.18.2"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://overra.com",
   "keywords": [
     "gatsby"
   ],
   "license": "MIT",
   "main": "n/a",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
-  },
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "now-build": "npm run build"
   }
 }
