@@ -1,4 +1,5 @@
 ---
+status: draft
 title: Toggling Smart Devices with IFTTT, Airtable and Webhooks
 date: "2019-06-28"
 description: How to use IFTTT, Airtable and Webhooks to toggle LIFX Lights and
